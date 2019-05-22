@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation_background"
+    android:id="@+id/myLayout"
+    tools:context=".Activity.ActivityKayitOl">
+
+    <EditText
+        android:id="@+id/editTextKayitAd"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint="Ad"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13999999" />
+
+    <EditText
+        android:id="@+id/editTextKayitUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint="Kullanıcı Adı"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="@+id/editTextKayitAd"
+        app:layout_constraintStart_toStartOf="@+id/editTextKayitAd"
+        app:layout_constraintTop_toBottomOf="@+id/editTextKayitAd" />
+
+    <EditText
+        android:id="@+id/editTextKayitPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:background="@drawable/edit_text"
+        android:paddingLeft="15dp"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="@+id/editTextKayitUsername"
+        app:layout_constraintStart_toStartOf="@+id/editTextKayitUsername"
+        app:layout_constraintTop_toBottomOf="@+id/editTextKayitUsername" />
+
+    <EditText
+        android:id="@+id/editTextKayitPasswordCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:hint="Şifre Onay"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="@+id/editTextKayitPassword"
+        app:layout_constraintStart_toStartOf="@+id/editTextKayitPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextKayitPassword" />
+
+    <Button
+        android:id="@+id/btnKayitOl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/drawable_buttons"
+        android:onClick="ActivityKayitOlButton"
+        android:text="Kayıt Ol"
+        app:layout_constraintEnd_toEndOf="@+id/editTextKayitPasswordCheck"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextKayitPasswordCheck"
+        app:layout_constraintTop_toBottomOf="@+id/editTextKayitPasswordCheck" />
+
+</android.support.constraint.ConstraintLayout>

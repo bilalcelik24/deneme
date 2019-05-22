@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/FragmentTestSoruCevap1Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Button"
+        android:background="@drawable/drawable_buttons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.283"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481" />
+
+    <TextView
+        android:id="@+id/FragmentTestSoruTxtOrnk"
+        android:layout_width="222dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="8dp"
+        android:text="Örnek Cümle"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:background="@drawable/edit_text"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="@+id/FragmentTestSoruTextView"
+        app:layout_constraintStart_toStartOf="@+id/FragmentTestSoruTextView"
+        app:layout_constraintTop_toBottomOf="@+id/FragmentTestSoruTextView" />
+
+    <TextView
+        android:id="@+id/FragmentTestSoruTextView"
+        android:layout_width="225dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Sorular"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:background="@drawable/edit_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <Button
+        android:id="@+id/FragmentTestSoruCevap2Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Button"
+        android:background="@drawable/drawable_buttons"
+        app:layout_constraintEnd_toEndOf="@+id/FragmentTestSoruCevap1Btn"
+        app:layout_constraintStart_toStartOf="@+id/FragmentTestSoruCevap1Btn"
+        app:layout_constraintTop_toBottomOf="@+id/FragmentTestSoruCevap1Btn" />
+
+    <Button
+        android:id="@+id/FragmentTestSoruCevap3Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Button"
+        android:background="@drawable/drawable_buttons"
+        app:layout_constraintEnd_toEndOf="@+id/FragmentTestSoruCevap2Btn"
+        app:layout_constraintStart_toStartOf="@+id/FragmentTestSoruCevap2Btn"
+        app:layout_constraintTop_toBottomOf="@+id/FragmentTestSoruCevap2Btn" />
+
+    <Button
+        android:id="@+id/FragmentTestSoruCevap4Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Button"
+        android:background="@drawable/drawable_buttons"
+        app:layout_constraintEnd_toEndOf="@+id/FragmentTestSoruCevap3Btn"
+        app:layout_constraintStart_toStartOf="@+id/FragmentTestSoruCevap3Btn"
+        app:layout_constraintTop_toBottomOf="@+id/FragmentTestSoruCevap3Btn" />
+
+    <Button
+        android:id="@+id/FragmentTestSoruNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/FragmentTestSoruCevap2Btn"
+        app:layout_constraintTop_toTopOf="@+id/FragmentTestSoruCevap1Btn" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Ogren"
+        android:id="@+id/BottomNavigationOgren"
+        android:icon="@drawable/ic_brain"/>
+
+    <item android:title="Test Ol"
+        android:id="@+id/BottomNavigationTestOl"
+        android:icon="@drawable/ic_notebook"/>
+
+    <item android:title="Profil"
+        android:id="@+id/BottomNavigationProfile"
+        android:icon="@drawable/ic_man"/>
+
+</menu>
